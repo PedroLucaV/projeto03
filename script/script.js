@@ -12,6 +12,7 @@ function verificaMulta(){
     }
 
     if(multa == true){
+        res.className = "red";
         res.innerHTML = "Foi aplicada multa de: "
     }else{
         res.className = "green";
